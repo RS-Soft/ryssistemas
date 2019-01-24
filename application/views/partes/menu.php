@@ -1,4 +1,5 @@
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+
     
     <a class="navbar-brand" href="#">
     <img src="<?php echo base_url('assets/img/rys.png')?>" width="90" height="60" alt="">
@@ -32,7 +33,7 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i>
-      Servicios
+      Servicios Informaticos
     </a>
     
             </li>
@@ -51,6 +52,10 @@
 
             <?php if(!isset($_SESSION['login'])){ ?>
             <li class="nav-item">
+
+                <a class="nav-link" href="<?php echo base_url('login')?>"><i class="fas fa-sign-in-alt"></i>Login</a>
+            </li>
+             <li class="nav-item">
 
                 <a class="nav-link" href="<?php echo base_url('login')?>"><i class="fas fa-sign-in-alt"></i>Login</a>
             </li>
