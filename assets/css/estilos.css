@@ -1,0 +1,51 @@
+
+<style>	
+
+body{
+  background: #FFE4C4;
+}
+
+.navbar-brand{
+  height: 65px;
+  width:175px;
+}
+
+.fondo{
+ background: rgba(255,128,128,0.5);
+}
+
+.boton{
+  background: #ff8080;
+}
+
+
+.mapa{
+  box-shadow: 10px 10px 10px grey;
+
+}
+
+.contacto{
+ background: rgba(255,128,128,0.5);
+}
+
+.form{
+	background: #ff8080;
+}
+
+.form-group .imageness{
+	height: 225px;
+}
+
+.fondo-body {
+	background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.vendidoboton{
+  background:  rgb(236, 147, 182);
+}
+
+</style>
+
+
