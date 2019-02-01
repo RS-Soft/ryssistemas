@@ -59,7 +59,7 @@
             </li>
              <li class="nav-item">
 
-                <a class="nav-link" href="<?php echo base_url('login')?>"><i class="fas fa-sign-in-alt"></i>Login</a>
+                <a class="nav-link" href="<?php echo base_url('login')?>"><i class="fas fa-sign-in-alt"></i>Registrar</a>
             </li>
 
             <?php }else{ ?>

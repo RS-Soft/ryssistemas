@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/css/fontawesome-all.min.css');?>">
+    <link rel="icon" href="<?php echo base_url("assets/img/rys.png");?>">
     
-    <title>RySSistemas</title>
+    <title><?php echo ($titulo); ?></title>
 
 </head>
 
