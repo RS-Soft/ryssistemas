@@ -4,11 +4,15 @@
   <div class="row">
     <div class="col-md-6">
       <div class="container-fluid">
-        <img class="img-responsive rounded-circle" src="assets/img/rys.png" height="318" width="400">
-        <p>Cualquier duda que tengas no dudes en comunicarte con nosotros.</p>
-        <p>Teléfono: </p>
-        <p>Email: </p>
-        <p>Dirección: </p>
+        <div class="form-group">
+          <img class="img-responsive rounded-circle" src="assets/img/rys-black.png" height="318" width="400">
+        </div>
+        <div class="form-group">
+          <p>Cualquier duda que tengas no dudes en comunicarte con nosotros.</p>
+          <p>Teléfono: </p>
+          <p>Email: </p>
+          <p>Dirección: </p>
+        </div>
       </div>
     </div>
     

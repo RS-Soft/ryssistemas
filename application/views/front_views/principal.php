@@ -2,7 +2,7 @@
 <div class="container  bg-dark">
   <div class="jumbotron bg-dark" style>
     <h1 class="text-center text-white">RySSistemas</h1>      
-    <p class="text-center text-white">Servicio Tecnico Profesional</p>
+    <p class="text-center text-white">Servicio T&eacute;cnico Profesional</p>
   </div>
     
 </div>

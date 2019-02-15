@@ -8,8 +8,8 @@
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Comercialización
-         </a>
+                            Comercialización
+                        </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="<?php echo base_url('tipodeentrega')?>"> Tipos de entregas</a>
                             <div class="dropdown-divider"></div>
@@ -18,7 +18,8 @@
                             <a class="dropdown-item" href="<?php echo base_url('formadepago')?>">Formas de pago</a>
                         </div>
                     </li>
-                    <a class="text-white"> Solutions IT <img  src="<?php echo base_url('assets/img/copi.png'); ?>" height="25px">Copyright 2018</a>
+                    <a class="text-white"> Solutions IT <img  src="<?php echo base_url('assets/img/copi.png'); ?>" height="25px">Copyright 2018
+                    </a>
                 </li>
             </ul>
         </div>
@@ -75,6 +76,37 @@
         }
     }
 </script>
+
+
+<!--                                Snatchbot                               -->
+
+
+<link rel="stylesheet" href="<?php echo base_url('assets/css/chatbot/webchat.css');?>" type="text/css"> 
+
+<script src="<?php echo base_url('assets/js/webchat.min.js');?>"></script>
+
+<script>
+     Init('?botID=45471&appID=webchat', 600, 600, '<?php echo base_url("assets/img/rys-black.png");?>', 'rounded', '#00AFF0', 90, 90, 62.99999999999999, '', '1', '#FFFFFF', '#FFFFFF', 0); /* for authentication of its users, you can define your userID (add &userID={login}) */ 
+</script>
+
+<div>
+    <span class="snatch-button" data-text="">
+        <a class="lwc-chat-button rounded" style="background-image: url('<?php echo base_url("assets/img/rys-black.png");?>'); background-position: center; background-size: cover; background-color:#00AFF0; width:90px; height:90px;">
+        </a>
+    </span>
+</div>
+
+
+<div id="sntchWebChat" style="visibility: hidden;">
+    <div id="sntch_header">
+        <div id="sntch_close">X</div>
+    </div>
+    <div id="content"></div>
+    
+</div>
+
+
+<!--                                Snatchbot                               -->
 
 </body>
 
