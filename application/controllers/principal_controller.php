@@ -33,4 +33,18 @@ public function contactos()
     
 }
 
+public function quienessomos()
+{
+
+    $data = array('titulo' => 'Contactos',
+    'vision' => 'hidden'
+);
+
+    $this->load->view('partes/header',$data);
+    $this->load->view('partes/menu');
+    $this->load->view('front_views/quienessomos');
+    $this->load->view('partes/footer');
+    
+}
+
 }
