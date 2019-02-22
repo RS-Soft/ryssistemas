@@ -13,12 +13,12 @@
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
+          <a class="social-link rounded-circle text-white mr-3" href="#">
             <i class="icon-social-github"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
+          <a class="social-link rounded-circle text-white mr-3" href="#">
             <i class="icon-social-instagram"></i>
           </a>
         </li>
@@ -59,33 +59,14 @@
 
 
 <!--                                Snatchbot                               -->
-
-
-<link rel="stylesheet" href="<?php echo base_url('assets/css/chatbot/webchat.css');?>" type="text/css"> 
-
-<script src="<?php echo base_url('assets/js/webchat.min.js');?>"></script>
-
-<script>
-     Init('?botID=45471&appID=webchat', 600, 600, '<?php echo base_url("assets/img/rys-black.png");?>', 'rounded', '#00AFF0', 90, 90, 62.99999999999999, '', '1', '#FFFFFF', '#FFFFFF', 0); /* for authentication of its users, you can define your userID (add &userID={login}) */ 
-</script>
-
-<div>
-    <span class="snatch-button" data-text="">
-        <a class="lwc-chat-button rounded" style="background-image: url('<?php echo base_url("assets/img/rys-black.png");?>'); background-position: center; background-size: cover; background-color:#00AFF0; width:90px; height:90px;">
-        </a>
-    </span>
-</div>
-
-
-<div id="sntchWebChat" style="visibility: hidden;">
-    <div id="sntch_header">
-        <div id="sntch_close">X</div>
-    </div>
-    <div id="content"></div>
-    
-</div>
-
-
+  <link href="https://es.snatchbot.me/sdk/webchat.css" rel="stylesheet" type="text/css">
+  <script 
+      src="https://es.snatchbot.me/sdk/webchat.min.js">
+  </script>
+  <script>
+     Init('?botID=45471&appID=webchat', 600, 600, 'https://dvgpba5hywmpo.cloudfront.net/media/image/ppU2VSokRvJURT3kUpW9xEjnD', 'rounded', '#00AFF0',
+     90, 90, 62.99999999999999, '', '1', '#FFFFFF', '#FFFFFF', 0);
+  </script>
 <!--                                Snatchbot                               -->
 
 </body>

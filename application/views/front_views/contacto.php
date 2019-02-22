@@ -1,5 +1,5 @@
 
-<h1 class=" text-center"><b>Contactos</b></h1>
+<h1 class=" text-center"><b>Contacta con Nosotros</b></h1>
 <div class="container text-center "><br>
   <div class="row">
     <div class="col-md-6">

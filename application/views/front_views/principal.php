@@ -1,12 +1,13 @@
 
   <!-- Header -->
   <header class="masthead d-flex">
-    <div class="container text-center my-auto" style="font-family: fuentetitulo">
-      <h1 class="mb-1 text-white">RySSistemas - Tu Solución</h1>
+    <div class="container text-center my-auto">
+      <h1 class="mb-1 text-white"  style="font-family: fuentetitulo">RySSistemas</h1>
+      <h2 class="mb-1 text-white"  style="font-family: fuentetitulo">Tu Solución</h2>
       <h3 class="mb-5 text-white">
         <em>Asistencia, Asesoria, Desarrollo, Soporte</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Mas Informacion</a>
     </div>
     <div class="overlay"></div>
   </header>
@@ -16,10 +17,10 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-          <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-            <a href="https://unsplash.com/">Unsplash</a>!</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+          <h2>Este Apartado Aun Esta en Desarrollo, podes ver nuestros "Servicios" para que puedas Entender un poco mas sobre Nosotros</h2>
+          <p class="lead mb-5">Nuestro Objetivo es que tengas la informacion mas completa posible y en pocas palabras
+            <!-- <a href="https://unsplash.com/">Unsplash</a>!</p> --></p>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Servicios</a>
         </div>
       </div>
     </div>
@@ -29,8 +30,8 @@
   <section class="content-section bg-primary text-white text-center" id="services">
     <div class="container">
       <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Services</h3>
-        <h2 class="mb-5">What We Offer</h2>
+        <h3 class="text-secondary mb-0">Nuestros Servicios</h3>
+        <h2 class="mb-5">Que Ofrecemos</h2>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -38,38 +39,38 @@
             <i class="icon-screen-smartphone"></i>
           </span>
           <h4>
-            <strong>Responsive</strong>
+            <strong>Desarrollo de Software</strong>
           </h4>
-          <p class="text-faded mb-0">Looks great on any screen size!</p>
+          <p class="text-faded mb-0">Nuestros equipos trabajan de forma coordinada para dar la mejor Producción de Software</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="icon-pencil"></i>
           </span>
           <h4>
-            <strong>Redesigned</strong>
+            <strong>Asesoria y Asistencia Técnica</strong>
           </h4>
-          <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
+          <p class="text-faded mb-0">Un Equipo de Profesionales Siempre Acompañandote para la toma de desiciones</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="icon-like"></i>
           </span>
           <h4>
-            <strong>Favorited</strong>
+            <strong>Soporte Técnico</strong>
           </h4>
-          <p class="text-faded mb-0">Millions of users
-            <i class="fas fa-heart"></i>
-            Start Bootstrap!</p>
+          <p class="text-faded mb-0">Contamos con el Area de Soporte Técnico por Excelencia
+            <!-- <i class="fas fa-heart"></i> -->
+          </p>
         </div>
         <div class="col-lg-3 col-md-6">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="icon-mustache"></i>
           </span>
           <h4>
-            <strong>Question</strong>
+            <strong>Servicio Técnico a Domicilio</strong>
           </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
+          <p class="text-faded mb-0">Tu Comodidad, Seguridad y Confianza son nuestra Prioridad</p>
         </div>
       </div>
     </div>

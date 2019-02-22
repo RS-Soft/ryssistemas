@@ -36,13 +36,27 @@ public function contactos()
 public function quienessomos()
 {
 
-    $data = array('titulo' => 'Contactos',
+    $data = array('titulo' => 'Quienes Somos',
     'vision' => 'hidden'
 );
 
     $this->load->view('partes/header',$data);
     $this->load->view('partes/menu');
     $this->load->view('front_views/quienessomos');
+    $this->load->view('partes/footer');
+    
+}
+
+public function actualidad()
+{
+
+    $data = array('titulo' => 'Ultimas Noticias',
+    'vision' => 'hidden'
+);
+
+    $this->load->view('partes/header',$data);
+    $this->load->view('partes/menu');
+    $this->load->view('front_views/actualidad');
     $this->load->view('partes/footer');
     
 }
