@@ -17,10 +17,11 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2>Este Apartado Aun Esta en Desarrollo, podes ver nuestros "Servicios" para que puedas Entender un poco mas sobre Nosotros</h2>
-          <p class="lead mb-5">Nuestro Objetivo es que tengas la informacion mas completa posible y en pocas palabras
+          <h2>Somos una empresa de gran trayectoria, dedicada ofrecer Servicios Informáticos. La confianza, el Compromiso y Trabajo en equipo considerando la opinion de nuestros usuarios son nuestros pilares mas importantes.
+          </h2>
+          <p class="lead mb-5">Contamos con sirvicios de Asesoria y asistencia Técnica personalizada para la toma de desciones, brindamos desarrollo de software a medida, asistimos a nuestros usuarios de forma presencial y remota para dar soluciones optimas y el mejor soporte técnico.
             <!-- <a href="https://unsplash.com/">Unsplash</a>!</p> --></p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Servicios</a>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#portfolio">Conocé al Equipo</a>
         </div>
       </div>
     </div>
@@ -77,65 +78,65 @@
   </section>
 
   <!-- Callout -->
-  <section class="callout">
+ <!--  <section class="callout">
     <div class="container text-center">
       <h2 class="mx-auto mb-5">Welcome to
         <em>your</em>
         next website!</h2>
       <a class="btn btn-primary btn-xl" href="#">Download Now!</a>
     </div>
-  </section>
+  </section> -->
 
   <!-- Portfolio -->
   <section class="content-section" id="portfolio">
     <div class="container">
-      <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Portfolio</h3>
-        <h2 class="mb-5">Recent Projects</h2>
+      <div class="content-section-heading text-center" style="font-family: fuentetitulo">
+        <h3 class="text-secondary mb-0">RySSistemas</h3>
+        <h2 class="mb-5">Nuestro Equipo</h2>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
           <a class="portfolio-item" href="#">
             <span class="caption">
               <span class="caption-content">
-                <h2>Stationary</h2>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                <h2>Diseñador Base de Datos</h2>
+                <p class="mb-0">Ananlisis, Diseño y Testing en Bases de Datos</p>
               </span>
             </span>
-            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="">
+            <img class="img-fluid" src="assets/img/Equipo/victor.jpg" alt="">
           </a>
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="#">
             <span class="caption">
               <span class="caption-content">
-                <h2>Ice Cream</h2>
-                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                <h2>Desarrollador Front-End y Back-End</h2>
+                <p class="mb-0">Caracteristica Principal: Analisis, Diseño y Puesta en marcha de Sistemas Informaticos</p>
               </span>
             </span>
-            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="">
+            <img class="img-fluid" src="assets/img/Equipo/ale.jpg" alt="">
           </a>
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="#">
             <span class="caption">
               <span class="caption-content">
-                <h2>Strawberries</h2>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                <h2>Desarrollador Back-End</h2>
+                <p class="mb-0">Caracteristica Principal: Proactividad, Disposicion y Autodidacta, Testing de Sistemas Informatico</p>
               </span>
             </span>
-            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="">
+            <img class="img-fluid" src="assets/img/Equipo/mauri.jpg" alt="">
           </a>
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="#">
             <span class="caption">
               <span class="caption-content">
-                <h2>Workspace</h2>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                <h2>Desarrollador - Fundador Proyecto RYSSISTEMAS</h2>
+                <p class="mb-0">CEO, Jefe de Proyectos, Técnico en Pc y Redes, Diseño Grafico</p>
               </span>
             </span>
-            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="">
+            <img class="img-fluid" src="assets/img/Equipo/rulo.jpg" alt="">
           </a>
         </div>
       </div>
@@ -143,13 +144,13 @@
   </section>
 
   <!-- Call to Action -->
-  <section class="content-section bg-primary text-white">
+<!--   <section class="content-section bg-primary text-white">
     <div class="container text-center">
       <h2 class="mb-4">The buttons below are impossible to resist...</h2>
       <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
       <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
     </div>
-  </section>
+  </section> -->
 
   <!-- Map -->
   <section id="contact" class="map">
