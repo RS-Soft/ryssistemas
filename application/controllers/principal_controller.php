@@ -3,62 +3,49 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Principal_Controller extends CI_Controller{
 
-function __construct()
-{
-    parent::__construct();
-}
+    function __construct()
+    {
+        parent::__construct();
+    }
 
 
-public function index()
-{
-    $data = array('titulo' => 'Inicio');
-    
-    $this->load->view('partes/header',$data);
-    $this->load->view('partes/menu');
-    $this->load->view('front_views/principal');
-    $this->load->view('partes/footer');
-}
+    public function index()
+    {
+        $data = array('titulo' => 'Inicio');
+        
+        $this->load->view('partes/header',$data);
+        $this->load->view('partes/menu');
+        $this->load->view('front_views/principal');
+        $this->load->view('partes/footer');
+    }
 
-public function contactos()
-{
+    public function contactos()
+    {
 
-    $data = array('titulo' => 'Contactos',
-    'vision' => 'hidden'
-);
+        $data = array('titulo' => 'Contactos',
+        'vision' => 'hidden'
+    );
 
-    $this->load->view('partes/header',$data);
-    $this->load->view('partes/menu');
-    $this->load->view('front_views/contacto');
-    $this->load->view('partes/footer');
-    
-}
+        $this->load->view('partes/header',$data);
+        $this->load->view('partes/menu');
+        $this->load->view('front_views/contacto');
+        $this->load->view('partes/footer');
+        
+    }
 
-public function quienessomos()
-{
+    public function quienessomos()
+    {
 
-    $data = array('titulo' => 'Quienes Somos',
-    'vision' => 'hidden'
-);
+        $data = array('titulo' => 'Quienes Somos',
+        'vision' => 'hidden'
+    );
 
-    $this->load->view('partes/header',$data);
-    $this->load->view('partes/menu');
-    $this->load->view('front_views/quienessomos');
-    $this->load->view('partes/footer');
-    
-}
+        $this->load->view('partes/header',$data);
+        $this->load->view('partes/menu');
+        $this->load->view('front_views/quienessomos');
+        $this->load->view('partes/footer');
+        
+    }
 
-public function actualidad()
-{
-
-    $data = array('titulo' => 'Ultimas Noticias',
-    'vision' => 'hidden'
-);
-
-    $this->load->view('partes/header',$data);
-    $this->load->view('partes/menu');
-    $this->load->view('front_views/actualidad');
-    $this->load->view('partes/footer');
-    
-}
 
 }

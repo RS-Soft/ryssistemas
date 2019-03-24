@@ -1,0 +1,205 @@
+.post-date{
+	background: #f4f4f4;
+	padding: 4px;
+	margin: 3px 0;
+	display: block;
+
+}
+
+.post-thumb{
+	
+	width: 50%;
+}
+
+.col-center{
+
+    float: none;
+    margin: 0 auto;
+}
+
+.pagination-links{
+
+	margin: 30px 0;
+
+}
+
+.pagination-links strong{
+
+	padding: 8px 13px;
+	margin: 5px;
+	background: #f4f4f4;
+	border: 1px #ccc solid;
+}
+
+a.pagination-links{
+
+	padding: 8px 13px;
+	margin: 5px;
+	background: #f4f4f4;
+	border: 1px #ccc solid;
+}
+
+
+.cat-delete{
+
+	display: inline;
+}
+
+/* 						FORMULARIO PARA CARGAR IMAGEN EN "CREAR POST"						*/
+.prevista{
+	margin-left: 100px;
+	display: inline-block;
+}
+
+#botonImage{
+	margin-top: 50px;
+}
+
+.title-carga{
+	color: #000000;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+.title-img{
+	margin-left: 115px;
+	padding: -2%;
+}
+
+.title-img2{
+	margin-left: 24px;
+}
+
+#btn_post-editeli{
+	left: 30%;
+	right: 70%;
+}
+
+#lbl-img-edit{
+	font-weight: bold;
+	background-color: #C6472C;
+	color: #FFFFFF;
+	padding: 3px;
+	/*border-radius: 6px;
+    border: 1px solid #0016b0;*/
+}
+
+#btn_post_index{
+	background-color: #1DAF7E;
+}
+
+.img_por_post_size{
+	max-width: 680px;
+	max-height: 453px;
+}
+
+/* 						FORMULARIO PARA CARGAR IMAGEN EN "CREAR POST"						*/
+
+
+
+
+
+
+/* 									FORMULARIO PARA CREAR CATEGORIAS						*/
+
+#form_categoria{
+	margin-bottom: 5%;
+	
+}
+
+/* 									FORMULARIO PARA CREAR CATEGORIAS						*/
+
+
+
+
+
+/*									MARGENES DE LA PAGINAS CONTRA EL FOOTER 				*/
+
+
+.form_create_category_margin{
+	margin-top: 125px;
+	margin-bottom: 171px;
+}
+
+.table_category_margin{
+	margin-bottom: 100px;
+}
+
+.form_loggin_margin{
+	margin-top: 100px;
+	margin-bottom: 173px;
+}
+
+.form_create_usuario_margin{
+	margin-bottom: 60px;
+}
+
+.form_post_margin{
+	margin-bottom: 90px;
+}
+
+/*									MARGENES DE LA PAGINAS CONTRA EL FOOTER 				*/
+
+
+
+
+
+
+
+/* 						TABLA DE CATEGORIAS: ;												*/
+
+#categorias-tble {
+	border-radius: 5px;
+    width: 30%;
+    margin: 0px auto;
+    float: none;
+    margin-top: 20px;
+    margin-bottom: 98px;
+}
+
+/* 						TABLA DE CATEGORIAS: ;												*/
+
+
+
+/* 										TABLA DE LOGIN: 									*/
+
+#form_loggin{
+
+	top: 50%;
+	bottom: 50%;
+	margin-top: 4%;
+	margin-bottom: 10%;
+	margin-left: ;
+	
+}
+
+#btn_loggin{
+	background-color: #ff5733;
+}
+/* 										TABLA DE LOGIN: 									*/
+
+
+
+/* 											FOOTER 											*/
+
+.footer_admin_tamaño_correcto{
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.container_post_index{
+	margin-bottom: 100px;
+}
+
+.footer_icons{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.footer_view_post_margin{
+	margin-bottom: 80px;
+}
+
+/* 											FOOTER 											*/
+
